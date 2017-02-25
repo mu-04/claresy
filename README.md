@@ -1,10 +1,12 @@
 ## Classroom Reservation System for the PSHS
 
-
+Originally, this project was called phpMyReservation generally made to make a paperless process to reserve for an item
+for a specific timeslot. This project is modified by PSHS-MC Muon STR Group 4 Batch 2019 to specifically cater to
+the Philippine Science High School's environment for reserving venues and the facilities within them [Butaran, 2017]
 
 ### Specifications
 
-This codebase was used to solve a problem regarding security (SQL Injections)
+This codebase (phpMyReservation) was used to solve a problem regarding security (SQL Injections)
 It was tested by vulnerability scanners and currently there are no vulnerabilities.
 
 phpMyReservation was originally developed by [Ole Jon Bjørkum](http://olejon.net)
