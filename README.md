@@ -1,18 +1,19 @@
-## phpMyReservation
+## Classroom Reservation System for the PSHS
 
-phpMyReservation is a web-based reservation/booking system. It is based on HTML5, PHP and MySQL, and it is free and open source.
 
-It was originally written to replace the paper-based reservation system used to reserve a washing machine used by many people where I live. Since it has other potential uses, and can be useful to others, I decided to make it available here.
 
-In addition to reserving a washing machine, it can for example be used to reserve a tennis court, a conference/meeting room etc. It is not intented to be used in situations where high security, high reliability or being able to handle hundreds of users is required.
+### Specifications
 
-### This project is currently not maintained
+This codebase was used to solve a problem regarding security (SQL Injections)
+It was tested by vulnerability scanners and currently there are no vulnerabilities.
 
-Many are contacting me regarding a new version. As of now I can not guarantee a new version in the near future. I will keep all your suggestions in mind if I start working on a new version. I am aware of that the current version have some bugs and flaws. As I have no education in technology whatsoever, I learn how to code in my spare time. With my knowledge today, I am aware of the fact that the code could be better. Test it thoroughly to see if it works for you.
+Database Manager: MySQL
+Backend Language: PHP
+Operating System: Linux
+Front-End Framework: Twitter Bootstrap
 
-Thanks for all your nice feedback!
 
-### Demo
+### Original phpMyReservation Codebase Demo
 
 * [A demo can be found here](http://www.olejon.net/code/phpmyreservation/?demo)
 * Create a new user to test it. **Make sure you read the demo information on the new user page!**
