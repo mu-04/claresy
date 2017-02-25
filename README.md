@@ -1,4 +1,6 @@
-## Classroom Reservation System for the PSHS
+## Claresy (Classroom Reservation System)
+
+### Classroom Reservation System for PSHS
 
 Originally, this project was called phpMyReservation generally made to make a paperless process to reserve for an item
 for a specific timeslot. This project is modified by PSHS-MC Muon STR Group 4 Batch 2019 to specifically cater to
@@ -9,12 +11,25 @@ the Philippine Science High School's environment for reserving venues and the fa
 This codebase (phpMyReservation) was used to solve a problem regarding security (SQL Injections)
 It was tested by vulnerability scanners and currently there are no vulnerabilities.
 
+Testing results: [Google Drive](https://drive.google.com/open?id=0BwTu0dwreTezN2JtTWxneFZkX0U)
+
+
 phpMyReservation was originally developed by [Ole Jon Bjørkum](http://olejon.net)
 
 * Database Manager: MySQL
 * Backend Language: PHP
 * Operating System: Linux
 * Front-End Framework: Twitter Bootstrap
+
+### Claresy Exclusive Features
+
+* PSHS User Fields []
+* PSHS-MC Specific Venues []
+* Peripheral/Facility Reservation []
+* Index of Reservations []
+
+[/] = Finished Feature
+[] = Work in Progress Feature
 
 
 ### Original phpMyReservation Codebase Demo
@@ -25,13 +40,14 @@ phpMyReservation was originally developed by [Ole Jon Bjørkum](http://olejon.ne
 ### Download
 
 * [Download phpMyReservation 1.0](http://www.olejon.net/code/phpmyreservation/files/phpmyreservation-1.0.tar.bz2)
+* Latest Update of Claresy (v0.1): [Google Drive](http://bit.ly/STRFilesMu04)
 
 ### Wiki
 
 * [How to install](https://www.olejon.net/code/phpmyreservation/?how_to_install)
 * [Reservation reminders](https://www.olejon.net/code/phpmyreservation/?reservation_reminders)
 
-### Features
+### phpMyReservation Features
 
 * Fast, easy and smooth
 * User login
@@ -41,6 +57,7 @@ phpMyReservation was originally developed by [Ole Jon Bjørkum](http://olejon.ne
 * User control panel
 * Advanced admin control panel
 * Receive reservation reminders by email
+
 
 **NOTE:** This web app was intended to be run on a server that is in the same time zone as the users, so there is no time zone support, as it was intented to be a private project. If all users are in the same time zone and the server is in another, use [this PHP function](http://php.net/manual/en/function.date-default-timezone-set.php) at the top part of `main.php` to change it. It all users are not in the same time zone it is not supported and the code must be changed more.
 
