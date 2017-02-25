@@ -7,6 +7,8 @@
 This codebase was used to solve a problem regarding security (SQL Injections)
 It was tested by vulnerability scanners and currently there are no vulnerabilities.
 
+phpMyReservation was originally developed by [Ole Jon Bjørkum](http://olejon.net)
+
 * Database Manager: MySQL
 * Backend Language: PHP
 * Operating System: Linux
