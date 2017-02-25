@@ -7,10 +7,10 @@
 This codebase was used to solve a problem regarding security (SQL Injections)
 It was tested by vulnerability scanners and currently there are no vulnerabilities.
 
-Database Manager: MySQL
-Backend Language: PHP
-Operating System: Linux
-Front-End Framework: Twitter Bootstrap
+* Database Manager: MySQL
+* Backend Language: PHP
+* Operating System: Linux
+* Front-End Framework: Twitter Bootstrap
 
 
 ### Original phpMyReservation Codebase Demo
